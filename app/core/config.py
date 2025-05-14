@@ -1,12 +1,13 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    app_name: str = "Sentiment Analyzer API"
+    # Expected configuration and their types
+    app_name: str = "Sentiment Analyzer API with FastAPI"
     debug: bool = True
 
-    class Config:
+    class Config:  # Actual configuration file
         env_file = ".env"
 
 
-settings = Settings()
+settings = Settings()  # Instance Creating

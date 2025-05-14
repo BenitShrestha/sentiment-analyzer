@@ -11,9 +11,9 @@ A simple and effective sentiment analyzer API built with FastAPI and VADER. It e
 - Pytest-based testing
 - GitHub Actions CI pipline
 - Pre-commit hooks
-    - `Flake8` linting 
-    - `Black` auto-formatting 
-    - `isort` sorting import 
+    - `Flake8` Linting 
+    - `Black` Auto-formatting 
+    - `isort` Sorting imports
 
 ---
 
